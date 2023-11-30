@@ -111,6 +111,11 @@ body {
     color: black;
 }
 
+h2 {
+    text-align: center;
+    text-decoration: underline palevioletred;
+}
+
 .flex_article {
     display: flex;
     width: auto;
@@ -137,11 +142,32 @@ body {
     height: 250px;
 }
 
-h2 {
-    text-align: center;
-    text-decoration: underline palevioletred;
+
+.flex_article_visuales {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    justify-content: space-evenly;
 }
 
+.flex_article_visuales:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.flex_article_visuales img {
+    width: 250px;    
+    height: 250px;
+}
+
+.flex_contenido_visuales {
+    width: 200px;
+    height: 250px;
+}
 /* Responsive para pantallas chicas/mobile */
 @media (max-width: 768px){
     .grid_genero {
@@ -190,120 +216,6 @@ h2 {
         justify-content: center;
         align-items: center;
     }
-}
-
-#main #populares {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-#main #cym {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-#main #novelas {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-#main #cronicas {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-#main #metrica {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-#main #libre {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-#main #orillaspoesia {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-#main #ensayos {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-#main #literarias {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-#main #audiovisuales {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-#mainvisuales {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin: 10px;
-    margin-bottom: 100px;
-    }
-
-#mainvisuales .genero {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    justify-content: space-evenly;
-    margin: 30px;
-}
-
-#mainvisuales .genero .nombregenero {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-#mainvisuales .genero .articles {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-
-#mainvisuales article {
-    width: 400px;
-    height: 200px;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-}
-
-#mainvisuales article img {
-    width: 200px;
-    height: 200px;
 }
 
 /*     <!-- PIE DE PÁGINA --> */
