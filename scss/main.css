@@ -80,7 +80,7 @@ body {
   grid-template-columns: auto auto auto;
   justify-content: space-evenly;
 }
-.grid_genero .grid_genero a {
+.grid_genero a {
   text-decoration: none;
   color: black;
 }
@@ -101,11 +101,11 @@ h2 {
   gap: 5px;
   justify-content: space-evenly;
 }
-.flex_article .flex_article:hover {
+.flex_article:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
-.flex_article .flex_article img {
+.flex_article img {
   width: 250px;
   height: 250px;
 }
@@ -125,11 +125,11 @@ h2 {
   gap: 5px;
   justify-content: space-evenly;
 }
-.flex_article_visuales .flex_article_visuales:hover {
+.flex_article_visuales:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
-.flex_article_visuales .flex_article_visuales img {
+.flex_article_visuales img {
   width: 250px;
   height: 250px;
 }

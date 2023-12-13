@@ -21,7 +21,7 @@
     margin: 10px;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
-    .grid_genero a {
+    & a {
         text-decoration: none;
         color: black;
     }
@@ -41,11 +41,11 @@ h2 {
     padding: 10px;
     gap: 5px;
     justify-content: space-evenly;
-    .flex_article:hover {
+    &:hover {
         transform: scale(1.1);
         transition: transform 0.3s ease;
     }
-    .flex_article img {
+    & img {
         width: 250px;    
         height: 250px;
     }
@@ -66,11 +66,11 @@ h2 {
     padding: 10px;
     gap: 5px;
     justify-content: space-evenly;
-    .flex_article_visuales:hover {
+    &:hover {
         transform: scale(1.1);
         transition: transform 0.3s ease;
     }
-    .flex_article_visuales img {
+    & img {
         width: 250px;    
         height: 250px;
     }
