@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+   }
+      
+
+/*  <!-- VARIABLES DE PÁGINA--> */
+@import "variables";
+/*  <!-- ENCABEZADO DE PÁGINA--> */
+@import "header";
+/*  <!-- CUERPO DE PÁGINA--> */
+@import "cuerpo";
+/*  <!-- PIE DE PÁGINA--> */
+@import "footer";
+/*  <!-- RESPONSIVE DE PÁGINA--> */
+@import "responsive";
+

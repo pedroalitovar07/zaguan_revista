@@ -1,0 +1,93 @@
+/* Responsive para pantallas chicas/mobile del menu*/
+@media (max-width: 768px){
+    .navbar {
+        position: fixed; 
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+      }
+}
+
+/* Responsive para pantallas medianas/tablets del menu */
+@media (max-width: 1200px) and (min-width: 768px) {
+    .navbar {
+        position: fixed; 
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+      }
+}
+
+/* Responsive para pantallas chicas/mobile */
+@media (max-width: 768px){
+    .grid_genero {
+        display: grid;
+        padding: 10px;
+        margin: 10px;
+        gap: 10px;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .flex_article {
+        display: flex;
+        width: px;
+        height: 500px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* Responsive para pantallas medianas/tablets del cuerpo de página y articles */
+@media (max-width: 1200px) and (min-width: 768px) {
+    .grid_genero {
+        display: grid;
+        padding: 10px;
+        margin: 10px;
+        gap: 10px;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .flex_article {
+        display: flex;
+        width: px;
+        height: 500px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Responsive para pantallas chicas/mobile del footer*/
+@media (max-width: 768px){
+    #footer {
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    
+    .flex_article {
+        display: flex;
+        width: px;
+        height: 500px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+}
