@@ -7,19 +7,12 @@ body {
 
 #header {
     margin: 0px;
-    #header #logo img {
+    & #logo img {
         height: 100px;
         width: 100px;
         border: 2px solid white;
      }
-    #header #banner #nombre h1 {
-        position: absolute;
-        top: 80px;
-        left: 160px;
-        color: white;
-        -webkit-text-stroke: 1px black;
-    }
-    #header #menu ul{
+    & #menu ul{
         padding: 0px;
         display: flex;
         list-style: none;
@@ -30,7 +23,7 @@ body {
         color: white;
         border: 2px;
     }
-    #header #menu ul li {
+    & #menu ul li {
         text-decoration: none;
         background-color: white;
         color: black;
@@ -38,7 +31,7 @@ body {
         padding: 0px;
         border-radius: 10px;
     }
-    #header #menu ul li a {
+    & #menu ul li a {
     text-decoration: none;
     color: black;
     } 
@@ -46,4 +39,10 @@ body {
 
 .text-custom {
     color: palevioletred;
+}
+
+.navbar {
+    & .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28219, 112, 147, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
 }

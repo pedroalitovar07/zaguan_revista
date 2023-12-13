@@ -10,11 +10,11 @@
     color: blanchedalmond;
     font-size: medium;
     text-align: center;
-    img {
+    & img {
         width: 30px;
         height: 30px;
     }
-    img:hover {
+    & img:hover {
         transform: scale(1.1);
         transition: transform 0.3s ease;
     }
