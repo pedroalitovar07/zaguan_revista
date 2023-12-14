@@ -92,35 +92,47 @@ h2 {
     margin: 10px;
     grid-template-columns: auto;
     justify-content: space-evenly;
-    .flex_info {
+}
+
+.flex_info {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 2px;
     margin: 10px;
     padding: 2px;
     align-items: center;
     justify-content: space-around;
-    }
-}
-.grid_texto {
+    .flex_texto {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
     width: 250px;
-    height: auto;
+    height: 600px;
     text-wrap: wrap;
     background-color: plum;
     border-style: solid seashell;
-    padding: 10px;
-    margin: 10px;
+    padding: 2px;
+    margin: 2px;
     align-items: center;
-}
-    .grid_texto p {
+    gap: 1px;
+    }
+}  
+    .flex_texto p {
         width: 230px;
         height: auto;
         text-wrap: wrap;
         text-decoration: underline seashell;
-        padding: 10px;
-        margin: 10px;
+        padding: 2px;
+        margin: 2px;
     }
-    .grid_img img {
-        width: 400px;
-        height: auto;
+    
+    .flex_img img {
+    width: 500px;
+    height: auto;
     }
+   
+
+
+   
+
+    

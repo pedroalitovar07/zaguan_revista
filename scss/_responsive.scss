@@ -69,6 +69,105 @@
     }
 }
 
+/* Responsive para pantallas chicas/mobile del cuerpo de pagina NOSOTROS*/
+@media (max-width: 768px){
+    #grid_nosotros {
+        display: grid;
+        padding: 10px;
+        margin: 10px;
+        gap: 10px;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex_info {
+        display: flex;
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex_texto p {
+        display: flex;
+        width: px;
+        height: 500px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex_img img {
+        display: flex;
+        width: px;
+        height: 500px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+/* Responsive para pantallas medianas/tablets del cuerpo de página NOSOTROS*/
+@media (max-width: 1200px) and (min-width: 768px) {
+    #grid_nosotros {
+        display: grid;
+        padding: 10px;
+        margin: 10px;
+        gap: 10px;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .flex_info {
+        display: flex;
+        width: px;
+        height: 500px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    .flex_texto p {
+        display: flex;
+        width: px;
+        height: 500px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex_img img {
+        display: flex;
+        width: px;
+        height: 500px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
 /* Responsive para pantallas chicas/mobile del footer*/
 @media (max-width: 768px){
     #footer {
