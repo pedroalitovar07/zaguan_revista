@@ -150,6 +150,53 @@ h2 {
   height: 250px;
 }
 
+/*     <!-- CUERPO DE PÁGINA NOSOTROS--> */
+#grid_nosotros {
+  width: auto;
+  height: auto;
+  display: grid;
+  padding: 10px;
+  gap: 10px;
+  margin: 10px;
+  grid-template-columns: auto;
+  justify-content: space-evenly;
+}
+#grid_nosotros .flex_info {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 10px;
+  padding: 2px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.grid_texto {
+  width: 250px;
+  height: auto;
+  text-wrap: wrap;
+  background-color: plum;
+  border-style: solid seashell;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+}
+
+.grid_texto p {
+  width: 230px;
+  height: auto;
+  text-wrap: wrap;
+  -webkit-text-decoration: underline seashell;
+          text-decoration: underline seashell;
+  padding: 10px;
+  margin: 10px;
+}
+
+.grid_img img {
+  width: 400px;
+  height: auto;
+}
+
 /*  <!-- PIE DE PÁGINA--> */
 /*     <!-- PIE DE PÁGINA --> */
 #footer {
@@ -170,6 +217,11 @@ h2 {
 #footer img:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
+}
+
+h4 {
+  -webkit-text-decoration: underline solid blueviolet;
+          text-decoration: underline solid blueviolet;
 }
 
 /*  <!-- RESPONSIVE DE PÁGINA--> */

@@ -80,3 +80,47 @@ h2 {
     width: 200px;
     height: 250px;
 }
+
+/*     <!-- CUERPO DE PÁGINA NOSOTROS--> */
+
+#grid_nosotros {
+    width: auto;
+    height: auto;
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    margin: 10px;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    .flex_info {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 10px;
+    padding: 2px;
+    align-items: center;
+    justify-content: space-around;
+    }
+}
+.grid_texto {
+    width: 250px;
+    height: auto;
+    text-wrap: wrap;
+    background-color: plum;
+    border-style: solid seashell;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+    .grid_texto p {
+        width: 230px;
+        height: auto;
+        text-wrap: wrap;
+        text-decoration: underline seashell;
+        padding: 10px;
+        margin: 10px;
+    }
+    .grid_img img {
+        width: 400px;
+        height: auto;
+    }
