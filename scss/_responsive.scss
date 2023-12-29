@@ -1,5 +1,5 @@
 /* Responsive para pantallas chicas/mobile del menu*/
-@media (max-width: 768px)and (min-width: 100px){
+@media (max-width: $mobile_max)and (min-width: $mobile_min){
     .navbar {
         position: fixed; 
         top: 0;
@@ -23,7 +23,7 @@
 }
 
 /* Responsive para pantallas medianas/tablets del menu */
-@media (max-width: 1200px) and (min-width: 768px) {
+@media (max-width: $tablet_max) and (min-width: $tablet_min) {
     .navbar {
         position: fixed; 
         top: 0;
@@ -49,7 +49,7 @@
       
 
 /* Responsive para pantallas chicas/mobile del cuerpo de pagina y articles*/
-@media (max-width: 768px){
+@media (max-width: $mobile_max){
     .grid_genero {
         display: grid;
         padding: 10px;
@@ -75,7 +75,7 @@
 
 
 /* Responsive para pantallas medianas/tablets del cuerpo de página y articles */
-@media (max-width: 1200px) and (min-width: 768px) {
+@media (max-width: $tablet_max) and (min-width: $tablet_min) {
     .grid_genero {
         display: grid;
         padding: 10px;
@@ -100,7 +100,7 @@
 }
 
 /* Responsive para pantallas chicas/mobile del cuerpo de pagina NOSOTROS*/
-@media (max-width: 768px){
+@media (max-width: $mobile_max){
     #grid_nosotros {
         display: grid;
         padding: 10px;
@@ -148,7 +148,7 @@
 
 
 /* Responsive para pantallas medianas/tablets del cuerpo de página NOSOTROS*/
-@media (max-width: 1200px) and (min-width: 768px) {
+@media (max-width: $tablet_max) and (min-width: $tablet_min) {
     #grid_nosotros {
         display: grid;
         padding: 10px;
@@ -199,7 +199,7 @@
 
 
 /* Responsive para pantallas chicas/mobile del footer*/
-@media (max-width: 768px){
+@media (max-width: $mobile_max){
     #footer {
         display: flex;
         padding: 10px;

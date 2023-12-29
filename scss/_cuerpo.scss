@@ -29,7 +29,7 @@
 
 h2 {
     text-align: center;
-    text-decoration: underline palevioletred;
+    text-decoration: underline $color_principal;
 }
 
 .flex_article {
@@ -117,7 +117,7 @@ h2 {
     width: 250px;
     height: 615px;
     text-wrap: wrap;
-    background-color: plum;
+    background-color: $color_terciario;
     border-style: solid seashell;
     padding: 2px;
     margin: 2px;
